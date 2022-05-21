@@ -1,0 +1,211 @@
+{
+ "mode": "real",
+ "fps_per_player": 6.0,
+ "duration_s": 33.0,
+ "real_frames_per_player": [
+  [
+   87
+  ],
+  [
+   24
+  ],
+  [
+   19
+  ],
+  [
+   13
+  ],
+  [
+   15
+  ],
+  [
+   66
+  ],
+  [
+   77
+  ],
+  [
+   8
+  ],
+  [
+   20
+  ],
+  [
+   42
+  ]
+ ],
+ "engine_health": {
+  "ok": true,
+  "players": 10,
+  "subscribers": 1,
+  "sessions": [
+   {
+    "pid": "p6",
+    "name": "Player 6",
+    "team": "B",
+    "agent": null,
+    "connected": false,
+    "frames_in": 188,
+    "frames_done": 119,
+    "dropped": 69,
+    "engine_fps": 3.5,
+    "decode_ms": 54.13,
+    "process_ms": 59.62,
+    "e2e_ms": 400.1
+   },
+   {
+    "pid": "p9",
+    "name": "Player 9",
+    "team": "B",
+    "agent": null,
+    "connected": false,
+    "frames_in": 188,
+    "frames_done": 121,
+    "dropped": 67,
+    "engine_fps": 3.5,
+    "decode_ms": 36.53,
+    "process_ms": 62.98,
+    "e2e_ms": 314.7
+   },
+   {
+    "pid": "p3",
+    "name": "Player 3",
+    "team": "A",
+    "agent": null,
+    "connected": false,
+    "frames_in": 188,
+    "frames_done": 145,
+    "dropped": 42,
+    "engine_fps": 5.1,
+    "decode_ms": 37.36,
+    "process_ms": 66.57,
+    "e2e_ms": 421.5
+   },
+   {
+    "pid": "p5",
+    "name": "Player 5",
+    "team": "A",
+    "agent": null,
+    "connected": false,
+    "frames_in": 187,
+    "frames_done": 147,
+    "dropped": 40,
+    "engine_fps": 5.3,
+    "decode_ms": 35.4,
+    "process_ms": 66.92,
+    "e2e_ms": 266.6
+   },
+   {
+    "pid": "p10",
+    "name": "Player 10",
+    "team": "B",
+    "agent": null,
+    "connected": false,
+    "frames_in": 187,
+    "frames_done": 120,
+    "dropped": 67,
+    "engine_fps": 4.1,
+    "decode_ms": 33.79,
+    "process_ms": 80.55,
+    "e2e_ms": 307.2
+   },
+   {
+    "pid": "p7",
+    "name": "Player 7",
+    "team": "B",
+    "agent": null,
+    "connected": false,
+    "frames_in": 186,
+    "frames_done": 144,
+    "dropped": 42,
+    "engine_fps": 5.1,
+    "decode_ms": 46.21,
+    "process_ms": 47.22,
+    "e2e_ms": 408.6
+   },
+   {
+    "pid": "p4",
+    "name": "Player 4",
+    "team": "A",
+    "agent": null,
+    "connected": false,
+    "frames_in": 186,
+    "frames_done": 119,
+    "dropped": 66,
+    "engine_fps": 3.1,
+    "decode_ms": 42.65,
+    "process_ms": 77.72,
+    "e2e_ms": 329.3
+   },
+   {
+    "pid": "p8",
+    "name": "Player 8",
+    "team": "B",
+    "agent": null,
+    "connected": false,
+    "frames_in": 185,
+    "frames_done": 147,
+    "dropped": 38,
+    "engine_fps": 5.4,
+    "decode_ms": 41.32,
+    "process_ms": 37.81,
+    "e2e_ms": 228.3
+   },
+   {
+    "pid": "p1",
+    "name": "Player 1",
+    "team": "A",
+    "agent": null,
+    "connected": false,
+    "frames_in": 185,
+    "frames_done": 147,
+    "dropped": 38,
+    "engine_fps": 5.1,
+    "decode_ms": 43.25,
+    "process_ms": 72.34,
+    "e2e_ms": 358.3
+   },
+   {
+    "pid": "p2",
+    "name": "Player 2",
+    "team": "A",
+    "agent": null,
+    "connected": false,
+    "frames_in": 185,
+    "frames_done": 114,
+    "dropped": 70,
+    "engine_fps": 3.2,
+    "decode_ms": 42.96,
+    "process_ms": 64.46,
+    "e2e_ms": 331.0
+   }
+  ]
+ },
+ "commentator_health": {
+  "ok": true,
+  "engine": "ws://127.0.0.1:8100/feed",
+  "browsers": 1,
+  "players_with_video": [
+   "p1",
+   "p10",
+   "p2",
+   "p3",
+   "p4",
+   "p5",
+   "p6",
+   "p7",
+   "p8",
+   "p9"
+  ],
+  "frames_received": 926,
+  "last_message_s_ago": 0.06
+ },
+ "recording": "samples/match_demo_real.mp4",
+ "throughput": {
+  "players": 10,
+  "frames_analysed": 1323,
+  "frames_dropped_newest_wins": 539,
+  "mean_process_ms": 63.62,
+  "mean_decode_ms": 41.36
+ }
+}

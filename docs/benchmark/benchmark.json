@@ -1,0 +1,169 @@
+{
+  "system": {
+    "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+    "logical_cpus": 2,
+    "cpus_available": 2,
+    "requested_threads": 16,
+    "ram_gb": 7.8,
+    "mem_limit_gb": 18.0,
+    "python": "3.13.16",
+    "opencv": "5.0.0",
+    "numpy": "2.5.4",
+    "os": "Linux 6.18.44-fc-v140",
+    "video": "sample_2022q1_30s.mp4"
+  },
+  "detectors_ms": {
+    "prepare": {
+      "median": 0.477,
+      "mean": 0.593,
+      "p95": 0.895,
+      "min": 0.317,
+      "n": 2710
+    },
+    "current_agent": {
+      "median": 0.1,
+      "mean": 0.113,
+      "p95": 0.175,
+      "min": 0.074,
+      "n": 2710
+    },
+    "roster": {
+      "median": 0.488,
+      "mean": 0.586,
+      "p95": 1.059,
+      "min": 0.395,
+      "n": 2710
+    },
+    "vitals": {
+      "median": 0.44,
+      "mean": 0.445,
+      "p95": 0.772,
+      "min": 0.22,
+      "n": 2710
+    },
+    "weapons": {
+      "median": 0.255,
+      "mean": 0.305,
+      "p95": 0.522,
+      "min": 0.209,
+      "n": 2710
+    },
+    "spike": {
+      "median": 0.39,
+      "mean": 0.328,
+      "p95": 0.675,
+      "min": 0.046,
+      "n": 2710
+    },
+    "abilities": {
+      "median": 0.283,
+      "mean": 0.338,
+      "p95": 0.623,
+      "min": 0.184,
+      "n": 2710
+    }
+  },
+  "latency_ms": {
+    "v2_sequential": {
+      "median": 2.58,
+      "mean": 2.742,
+      "p95": 4.166,
+      "min": 1.617,
+      "n": 2700
+    },
+    "v2_threadpool_2": {
+      "median": 3.369,
+      "mean": 3.939,
+      "p95": 8.119,
+      "min": 1.83,
+      "n": 900
+    },
+    "v2_threadpool_4": {
+      "median": 3.965,
+      "mean": 4.452,
+      "p95": 8.649,
+      "min": 1.877,
+      "n": 900
+    },
+    "v2_threadpool_8": {
+      "median": 4.06,
+      "mean": 4.806,
+      "p95": 9.925,
+      "min": 1.917,
+      "n": 900
+    },
+    "legacy_2022_threads_tesseract": {
+      "median": 157.97,
+      "mean": 162.627,
+      "p95": 196.675,
+      "min": 132.99,
+      "n": 120
+    },
+    "legacy_2022_threads_no_ocr": {
+      "median": 9.174,
+      "mean": 14.373,
+      "p95": 25.885,
+      "min": 5.754,
+      "n": 120
+    }
+  },
+  "peak_mem_latency_phase_mb": 2551.1,
+  "throughput": [
+    {
+      "workers": 1,
+      "fps": 208.9,
+      "wall_s": 4.309,
+      "oversubscribed": false
+    },
+    {
+      "workers": 2,
+      "fps": 246.1,
+      "wall_s": 3.658,
+      "oversubscribed": false
+    },
+    {
+      "workers": 4,
+      "fps": 206.7,
+      "wall_s": 4.355,
+      "oversubscribed": true
+    },
+    {
+      "workers": 8,
+      "fps": 176.1,
+      "wall_s": 5.111,
+      "oversubscribed": true
+    },
+    {
+      "workers": 12,
+      "fps": 142.4,
+      "wall_s": 6.32,
+      "oversubscribed": true
+    },
+    {
+      "workers": 16,
+      "fps": 119.1,
+      "wall_s": 7.557,
+      "oversubscribed": true
+    }
+  ],
+  "peak_mem_throughput_phase_mb": 932.5,
+  "hub_capacity": {
+    "players": 10,
+    "seconds": 8.0,
+    "frames_analysed": 1209,
+    "frames_per_s": 151.1,
+    "per_player_fps": 15.1,
+    "mean_decode_ms": 8.27,
+    "mean_process_ms": 58.22
+  },
+  "cpu_ms_per_frame": 6.14,
+  "wall_ms_per_frame_1worker": 4.551,
+  "projection": {
+    "note": "PROJECTION for 16 threads - this machine has 2 CPUs; not a measurement",
+    "cpu_ms_per_frame": 6.14,
+    "ideal_fps": 2605.9,
+    "measured_scaling_efficiency": 0.756,
+    "expected_fps": 1968.8,
+    "method": "fps(N) = N * 1000 / cpu_ms_per_frame * efficiency, efficiency measured at 2 workers on this machine"
+  }
+}

@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "valovision"
+version = "2.0.0"
+description = "Classical computer-vision engine that reads the VALORANT (2022 Q1) HUD in real time — no AI models."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Hazem Mamdouh" }]
+dependencies = [
+  "numpy>=1.22",
+  "opencv-python-headless>=4.6",
+  "fastapi>=0.100",
+  "uvicorn[standard]>=0.23",
+  "mss>=9.0",
+  "pillow>=9.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "psutil>=5.9", "matplotlib>=3.6", "httpx>=0.24"]
+legacy = ["pytesseract>=0.3.10"]
+
+[project.scripts]
+valovision = "valovision.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["valovision*"]
+
+[tool.setuptools.package-data]
+valovision = ["layouts/*", "assets/templates/*/*.png", "assets/fonts/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

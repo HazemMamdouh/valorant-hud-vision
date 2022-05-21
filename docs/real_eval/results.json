@@ -1,0 +1,1618 @@
+{
+ "frames": 89,
+ "v2": {
+  "dev (0-44)": {
+   "alive (per slot)": {
+    "accuracy": 1.0,
+    "correct": 430,
+    "n": 430,
+    "errors": []
+   },
+   "alive count, your team": {
+    "accuracy": 1.0,
+    "correct": 43,
+    "n": 43,
+    "errors": []
+   },
+   "alive count, enemies": {
+    "accuracy": 1.0,
+    "correct": 43,
+    "n": 43,
+    "errors": []
+   },
+   "spike planted": {
+    "accuracy": 1.0,
+    "correct": 43,
+    "n": 43,
+    "errors": []
+   },
+   "spike carrier": {
+    "accuracy": 0.9767,
+    "correct": 42,
+    "n": 43,
+    "errors": [
+     {
+      "idx": 43,
+      "pred": null,
+      "gt": 4
+     }
+    ]
+   },
+   "HP": {
+    "accuracy": 0.8529,
+    "correct": 29,
+    "n": 34,
+    "errors": [
+     {
+      "idx": 0,
+      "pred": null,
+      "gt": 100
+     },
+     {
+      "idx": 8,
+      "pred": null,
+      "gt": 100
+     },
+     {
+      "idx": 36,
+      "pred": null,
+      "gt": 45
+     },
+     {
+      "idx": 39,
+      "pred": null,
+      "gt": 100
+     },
+     {
+      "idx": 41,
+      "pred": null,
+      "gt": 100
+     }
+    ]
+   },
+   "shield": {
+    "accuracy": 0.8182,
+    "correct": 27,
+    "n": 33,
+    "errors": [
+     {
+      "idx": 0,
+      "pred": null,
+      "gt": 0
+     },
+     {
+      "idx": 8,
+      "pred": null,
+      "gt": 50
+     },
+     {
+      "idx": 24,
+      "pred": 0,
+      "gt": 7
+     },
+     {
+      "idx": 36,
+      "pred": null,
+      "gt": 0
+     },
+     {
+      "idx": 39,
+      "pred": null,
+      "gt": 50
+     },
+     {
+      "idx": 41,
+      "pred": null,
+      "gt": 50
+     }
+    ]
+   },
+   "ability charges (C/Q/E)": {
+    "accuracy": 0.9619,
+    "correct": 101,
+    "n": 105,
+    "errors": [
+     {
+      "idx": 24,
+      "pred": 0,
+      "gt": 1
+     },
+     {
+      "idx": 32,
+      "pred": 0,
+      "gt": 1
+     },
+     {
+      "idx": 32,
+      "pred": 1,
+      "gt": 0
+     },
+     {
+      "idx": 42,
+      "pred": 0,
+      "gt": 2
+     }
+    ]
+   },
+   "ult ready": {
+    "accuracy": 1.0,
+    "correct": 35,
+    "n": 35,
+    "errors": []
+   },
+   "HUD hidden -> HP null": {
+    "accuracy": 1.0,
+    "correct": 11,
+    "n": 11,
+    "errors": []
+   }
+  },
+  "test (45-88)": {
+   "alive (per slot)": {
+    "accuracy": 0.9955,
+    "correct": 438,
+    "n": 440,
+    "errors": [
+     {
+      "idx": 62,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 68,
+      "pred": false,
+      "gt": true
+     }
+    ]
+   },
+   "alive count, your team": {
+    "accuracy": 1.0,
+    "correct": 44,
+    "n": 44,
+    "errors": []
+   },
+   "alive count, enemies": {
+    "accuracy": 0.9545,
+    "correct": 42,
+    "n": 44,
+    "errors": [
+     {
+      "idx": 62,
+      "pred": 4,
+      "gt": 5
+     },
+     {
+      "idx": 68,
+      "pred": 4,
+      "gt": 5
+     }
+    ]
+   },
+   "spike planted": {
+    "accuracy": 0.9773,
+    "correct": 43,
+    "n": 44,
+    "errors": [
+     {
+      "idx": 56,
+      "pred": true,
+      "gt": false
+     }
+    ]
+   },
+   "spike carrier": {
+    "accuracy": 1.0,
+    "correct": 44,
+    "n": 44,
+    "errors": []
+   },
+   "HUD hidden -> HP null": {
+    "accuracy": 1.0,
+    "correct": 6,
+    "n": 6,
+    "errors": []
+   },
+   "HP": {
+    "accuracy": 0.9211,
+    "correct": 35,
+    "n": 38,
+    "errors": [
+     {
+      "idx": 46,
+      "pred": null,
+      "gt": 100
+     },
+     {
+      "idx": 62,
+      "pred": null,
+      "gt": 100
+     },
+     {
+      "idx": 81,
+      "pred": null,
+      "gt": 100
+     }
+    ]
+   },
+   "shield": {
+    "accuracy": 0.7105,
+    "correct": 27,
+    "n": 38,
+    "errors": [
+     {
+      "idx": 46,
+      "pred": null,
+      "gt": 50
+     },
+     {
+      "idx": 48,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 52,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 65,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 67,
+      "pred": 0,
+      "gt": 25
+     },
+     {
+      "idx": 68,
+      "pred": 0,
+      "gt": 25
+     },
+     {
+      "idx": 71,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 78,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 81,
+      "pred": null,
+      "gt": 0
+     },
+     {
+      "idx": 83,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 85,
+      "pred": 0,
+      "gt": 50
+     }
+    ]
+   },
+   "ability charges (C/Q/E)": {
+    "accuracy": 0.9675,
+    "correct": 119,
+    "n": 123,
+    "errors": [
+     {
+      "idx": 46,
+      "pred": 0,
+      "gt": 1
+     },
+     {
+      "idx": 46,
+      "pred": 0,
+      "gt": 2
+     },
+     {
+      "idx": 47,
+      "pred": 0,
+      "gt": 1
+     },
+     {
+      "idx": 48,
+      "pred": 1,
+      "gt": 2
+     }
+    ]
+   },
+   "ult ready": {
+    "accuracy": 1.0,
+    "correct": 41,
+    "n": 41,
+    "errors": []
+   }
+  },
+  "all": {
+   "alive (per slot)": {
+    "accuracy": 0.9977,
+    "correct": 868,
+    "n": 870,
+    "errors": [
+     {
+      "idx": 62,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 68,
+      "pred": false,
+      "gt": true
+     }
+    ]
+   },
+   "alive count, your team": {
+    "accuracy": 1.0,
+    "correct": 87,
+    "n": 87,
+    "errors": []
+   },
+   "alive count, enemies": {
+    "accuracy": 0.977,
+    "correct": 85,
+    "n": 87,
+    "errors": [
+     {
+      "idx": 62,
+      "pred": 4,
+      "gt": 5
+     },
+     {
+      "idx": 68,
+      "pred": 4,
+      "gt": 5
+     }
+    ]
+   },
+   "spike planted": {
+    "accuracy": 0.9885,
+    "correct": 86,
+    "n": 87,
+    "errors": [
+     {
+      "idx": 56,
+      "pred": true,
+      "gt": false
+     }
+    ]
+   },
+   "spike carrier": {
+    "accuracy": 0.9885,
+    "correct": 86,
+    "n": 87,
+    "errors": [
+     {
+      "idx": 43,
+      "pred": null,
+      "gt": 4
+     }
+    ]
+   },
+   "HP": {
+    "accuracy": 0.8889,
+    "correct": 64,
+    "n": 72,
+    "errors": [
+     {
+      "idx": 0,
+      "pred": null,
+      "gt": 100
+     },
+     {
+      "idx": 8,
+      "pred": null,
+      "gt": 100
+     },
+     {
+      "idx": 36,
+      "pred": null,
+      "gt": 45
+     },
+     {
+      "idx": 39,
+      "pred": null,
+      "gt": 100
+     },
+     {
+      "idx": 41,
+      "pred": null,
+      "gt": 100
+     },
+     {
+      "idx": 46,
+      "pred": null,
+      "gt": 100
+     },
+     {
+      "idx": 62,
+      "pred": null,
+      "gt": 100
+     },
+     {
+      "idx": 81,
+      "pred": null,
+      "gt": 100
+     }
+    ]
+   },
+   "shield": {
+    "accuracy": 0.7606,
+    "correct": 54,
+    "n": 71,
+    "errors": [
+     {
+      "idx": 0,
+      "pred": null,
+      "gt": 0
+     },
+     {
+      "idx": 8,
+      "pred": null,
+      "gt": 50
+     },
+     {
+      "idx": 24,
+      "pred": 0,
+      "gt": 7
+     },
+     {
+      "idx": 36,
+      "pred": null,
+      "gt": 0
+     },
+     {
+      "idx": 39,
+      "pred": null,
+      "gt": 50
+     },
+     {
+      "idx": 41,
+      "pred": null,
+      "gt": 50
+     },
+     {
+      "idx": 46,
+      "pred": null,
+      "gt": 50
+     },
+     {
+      "idx": 48,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 52,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 65,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 67,
+      "pred": 0,
+      "gt": 25
+     },
+     {
+      "idx": 68,
+      "pred": 0,
+      "gt": 25
+     }
+    ]
+   },
+   "ability charges (C/Q/E)": {
+    "accuracy": 0.9649,
+    "correct": 220,
+    "n": 228,
+    "errors": [
+     {
+      "idx": 24,
+      "pred": 0,
+      "gt": 1
+     },
+     {
+      "idx": 32,
+      "pred": 0,
+      "gt": 1
+     },
+     {
+      "idx": 32,
+      "pred": 1,
+      "gt": 0
+     },
+     {
+      "idx": 42,
+      "pred": 0,
+      "gt": 2
+     },
+     {
+      "idx": 46,
+      "pred": 0,
+      "gt": 1
+     },
+     {
+      "idx": 46,
+      "pred": 0,
+      "gt": 2
+     },
+     {
+      "idx": 47,
+      "pred": 0,
+      "gt": 1
+     },
+     {
+      "idx": 48,
+      "pred": 1,
+      "gt": 2
+     }
+    ]
+   },
+   "ult ready": {
+    "accuracy": 1.0,
+    "correct": 76,
+    "n": 76,
+    "errors": []
+   },
+   "HUD hidden -> HP null": {
+    "accuracy": 1.0,
+    "correct": 17,
+    "n": 17,
+    "errors": []
+   }
+  }
+ },
+ "legacy_2022": {
+  "dev (0-44)": {
+   "alive (per slot)": {
+    "accuracy": 0.986,
+    "correct": 424,
+    "n": 430,
+    "errors": [
+     {
+      "idx": 27,
+      "pred": true,
+      "gt": false
+     },
+     {
+      "idx": 30,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 31,
+      "pred": true,
+      "gt": false
+     },
+     {
+      "idx": 32,
+      "pred": true,
+      "gt": false
+     },
+     {
+      "idx": 42,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 44,
+      "pred": false,
+      "gt": true
+     }
+    ]
+   },
+   "alive count, your team": {
+    "accuracy": 0.8837,
+    "correct": 38,
+    "n": 43,
+    "errors": [
+     {
+      "idx": 27,
+      "pred": 4,
+      "gt": 3
+     },
+     {
+      "idx": 30,
+      "pred": 4,
+      "gt": 5
+     },
+     {
+      "idx": 31,
+      "pred": 1,
+      "gt": 0
+     },
+     {
+      "idx": 32,
+      "pred": 1,
+      "gt": 0
+     },
+     {
+      "idx": 42,
+      "pred": 4,
+      "gt": 5
+     }
+    ]
+   },
+   "alive count, enemies": {
+    "accuracy": 0.9767,
+    "correct": 42,
+    "n": 43,
+    "errors": [
+     {
+      "idx": 44,
+      "pred": 4,
+      "gt": 5
+     }
+    ]
+   },
+   "spike planted": {
+    "accuracy": 0.7907,
+    "correct": 34,
+    "n": 43,
+    "errors": [
+     {
+      "idx": 4,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 7,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 16,
+      "pred": true,
+      "gt": false
+     },
+     {
+      "idx": 17,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 19,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 20,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 21,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 34,
+      "pred": true,
+      "gt": false
+     },
+     {
+      "idx": 36,
+      "pred": false,
+      "gt": true
+     }
+    ]
+   },
+   "spike carrier": {
+    "accuracy": 0.907,
+    "correct": 39,
+    "n": 43,
+    "errors": [
+     {
+      "idx": 5,
+      "pred": 6,
+      "gt": null
+     },
+     {
+      "idx": 28,
+      "pred": 5,
+      "gt": null
+     },
+     {
+      "idx": 30,
+      "pred": 10,
+      "gt": null
+     },
+     {
+      "idx": 31,
+      "pred": 5,
+      "gt": null
+     }
+    ]
+   },
+   "HP": {
+    "accuracy": 0.8529,
+    "correct": 29,
+    "n": 34,
+    "errors": [
+     {
+      "idx": 0,
+      "pred": null,
+      "gt": 100
+     },
+     {
+      "idx": 8,
+      "pred": null,
+      "gt": 100
+     },
+     {
+      "idx": 36,
+      "pred": 5,
+      "gt": 45
+     },
+     {
+      "idx": 39,
+      "pred": null,
+      "gt": 100
+     },
+     {
+      "idx": 41,
+      "pred": null,
+      "gt": 100
+     }
+    ]
+   },
+   "shield": {
+    "accuracy": 0.7879,
+    "correct": 26,
+    "n": 33,
+    "errors": [
+     {
+      "idx": 8,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 13,
+      "pred": 75,
+      "gt": 25
+     },
+     {
+      "idx": 24,
+      "pred": 0,
+      "gt": 7
+     },
+     {
+      "idx": 25,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 29,
+      "pred": 245,
+      "gt": 25
+     },
+     {
+      "idx": 39,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 41,
+      "pred": 0,
+      "gt": 50
+     }
+    ]
+   },
+   "ability charges (C/Q/E)": {
+    "accuracy": 0.9333,
+    "correct": 98,
+    "n": 105,
+    "errors": [
+     {
+      "idx": 12,
+      "pred": 1,
+      "gt": 0
+     },
+     {
+      "idx": 31,
+      "pred": 1,
+      "gt": 0
+     },
+     {
+      "idx": 39,
+      "pred": 0,
+      "gt": 3
+     },
+     {
+      "idx": 39,
+      "pred": 0,
+      "gt": 2
+     },
+     {
+      "idx": 39,
+      "pred": 0,
+      "gt": 1
+     },
+     {
+      "idx": 41,
+      "pred": 0,
+      "gt": 2
+     },
+     {
+      "idx": 41,
+      "pred": 0,
+      "gt": 1
+     }
+    ]
+   },
+   "ult ready": {
+    "accuracy": 0.9429,
+    "correct": 33,
+    "n": 35,
+    "errors": [
+     {
+      "idx": 0,
+      "pred": true,
+      "gt": false
+     },
+     {
+      "idx": 41,
+      "pred": false,
+      "gt": true
+     }
+    ]
+   },
+   "HUD hidden -> HP null": {
+    "accuracy": 1.0,
+    "correct": 11,
+    "n": 11,
+    "errors": []
+   }
+  },
+  "test (45-88)": {
+   "alive (per slot)": {
+    "accuracy": 0.9932,
+    "correct": 437,
+    "n": 440,
+    "errors": [
+     {
+      "idx": 54,
+      "pred": true,
+      "gt": false
+     },
+     {
+      "idx": 62,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 73,
+      "pred": true,
+      "gt": false
+     }
+    ]
+   },
+   "alive count, your team": {
+    "accuracy": 0.9545,
+    "correct": 42,
+    "n": 44,
+    "errors": [
+     {
+      "idx": 54,
+      "pred": 3,
+      "gt": 2
+     },
+     {
+      "idx": 73,
+      "pred": 3,
+      "gt": 2
+     }
+    ]
+   },
+   "alive count, enemies": {
+    "accuracy": 0.9773,
+    "correct": 43,
+    "n": 44,
+    "errors": [
+     {
+      "idx": 62,
+      "pred": 4,
+      "gt": 5
+     }
+    ]
+   },
+   "spike planted": {
+    "accuracy": 0.8864,
+    "correct": 39,
+    "n": 44,
+    "errors": [
+     {
+      "idx": 48,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 58,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 65,
+      "pred": true,
+      "gt": false
+     },
+     {
+      "idx": 74,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 77,
+      "pred": false,
+      "gt": true
+     }
+    ]
+   },
+   "spike carrier": {
+    "accuracy": 0.7955,
+    "correct": 35,
+    "n": 44,
+    "errors": [
+     {
+      "idx": 50,
+      "pred": 3,
+      "gt": null
+     },
+     {
+      "idx": 54,
+      "pred": 4,
+      "gt": null
+     },
+     {
+      "idx": 58,
+      "pred": 5,
+      "gt": null
+     },
+     {
+      "idx": 62,
+      "pred": 6,
+      "gt": null
+     },
+     {
+      "idx": 64,
+      "pred": 3,
+      "gt": null
+     },
+     {
+      "idx": 69,
+      "pred": 3,
+      "gt": null
+     },
+     {
+      "idx": 73,
+      "pred": 4,
+      "gt": null
+     },
+     {
+      "idx": 74,
+      "pred": 5,
+      "gt": null
+     },
+     {
+      "idx": 80,
+      "pred": 2,
+      "gt": null
+     }
+    ]
+   },
+   "HUD hidden -> HP null": {
+    "accuracy": 1.0,
+    "correct": 6,
+    "n": 6,
+    "errors": []
+   },
+   "HP": {
+    "accuracy": 0.9474,
+    "correct": 36,
+    "n": 38,
+    "errors": [
+     {
+      "idx": 46,
+      "pred": null,
+      "gt": 100
+     },
+     {
+      "idx": 81,
+      "pred": null,
+      "gt": 100
+     }
+    ]
+   },
+   "shield": {
+    "accuracy": 0.7368,
+    "correct": 28,
+    "n": 38,
+    "errors": [
+     {
+      "idx": 46,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 48,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 52,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 64,
+      "pred": 75,
+      "gt": 25
+     },
+     {
+      "idx": 65,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 67,
+      "pred": 0,
+      "gt": 25
+     },
+     {
+      "idx": 68,
+      "pred": 0,
+      "gt": 25
+     },
+     {
+      "idx": 71,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 85,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 87,
+      "pred": 3,
+      "gt": 38
+     }
+    ]
+   },
+   "ability charges (C/Q/E)": {
+    "accuracy": 0.9593,
+    "correct": 118,
+    "n": 123,
+    "errors": [
+     {
+      "idx": 48,
+      "pred": 1,
+      "gt": 2
+     },
+     {
+      "idx": 50,
+      "pred": 1,
+      "gt": 3
+     },
+     {
+      "idx": 69,
+      "pred": 1,
+      "gt": 3
+     },
+     {
+      "idx": 85,
+      "pred": 1,
+      "gt": 3
+     },
+     {
+      "idx": 86,
+      "pred": 1,
+      "gt": 2
+     }
+    ]
+   },
+   "ult ready": {
+    "accuracy": 0.9024,
+    "correct": 37,
+    "n": 41,
+    "errors": [
+     {
+      "idx": 55,
+      "pred": true,
+      "gt": false
+     },
+     {
+      "idx": 57,
+      "pred": true,
+      "gt": false
+     },
+     {
+      "idx": 62,
+      "pred": true,
+      "gt": false
+     },
+     {
+      "idx": 79,
+      "pred": true,
+      "gt": false
+     }
+    ]
+   }
+  },
+  "all": {
+   "alive (per slot)": {
+    "accuracy": 0.9897,
+    "correct": 861,
+    "n": 870,
+    "errors": [
+     {
+      "idx": 27,
+      "pred": true,
+      "gt": false
+     },
+     {
+      "idx": 30,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 31,
+      "pred": true,
+      "gt": false
+     },
+     {
+      "idx": 32,
+      "pred": true,
+      "gt": false
+     },
+     {
+      "idx": 42,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 44,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 54,
+      "pred": true,
+      "gt": false
+     },
+     {
+      "idx": 62,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 73,
+      "pred": true,
+      "gt": false
+     }
+    ]
+   },
+   "alive count, your team": {
+    "accuracy": 0.9195,
+    "correct": 80,
+    "n": 87,
+    "errors": [
+     {
+      "idx": 27,
+      "pred": 4,
+      "gt": 3
+     },
+     {
+      "idx": 30,
+      "pred": 4,
+      "gt": 5
+     },
+     {
+      "idx": 31,
+      "pred": 1,
+      "gt": 0
+     },
+     {
+      "idx": 32,
+      "pred": 1,
+      "gt": 0
+     },
+     {
+      "idx": 42,
+      "pred": 4,
+      "gt": 5
+     },
+     {
+      "idx": 54,
+      "pred": 3,
+      "gt": 2
+     },
+     {
+      "idx": 73,
+      "pred": 3,
+      "gt": 2
+     }
+    ]
+   },
+   "alive count, enemies": {
+    "accuracy": 0.977,
+    "correct": 85,
+    "n": 87,
+    "errors": [
+     {
+      "idx": 44,
+      "pred": 4,
+      "gt": 5
+     },
+     {
+      "idx": 62,
+      "pred": 4,
+      "gt": 5
+     }
+    ]
+   },
+   "spike planted": {
+    "accuracy": 0.8391,
+    "correct": 73,
+    "n": 87,
+    "errors": [
+     {
+      "idx": 4,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 7,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 16,
+      "pred": true,
+      "gt": false
+     },
+     {
+      "idx": 17,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 19,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 20,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 21,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 34,
+      "pred": true,
+      "gt": false
+     },
+     {
+      "idx": 36,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 48,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 58,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 65,
+      "pred": true,
+      "gt": false
+     }
+    ]
+   },
+   "spike carrier": {
+    "accuracy": 0.8506,
+    "correct": 74,
+    "n": 87,
+    "errors": [
+     {
+      "idx": 5,
+      "pred": 6,
+      "gt": null
+     },
+     {
+      "idx": 28,
+      "pred": 5,
+      "gt": null
+     },
+     {
+      "idx": 30,
+      "pred": 10,
+      "gt": null
+     },
+     {
+      "idx": 31,
+      "pred": 5,
+      "gt": null
+     },
+     {
+      "idx": 50,
+      "pred": 3,
+      "gt": null
+     },
+     {
+      "idx": 54,
+      "pred": 4,
+      "gt": null
+     },
+     {
+      "idx": 58,
+      "pred": 5,
+      "gt": null
+     },
+     {
+      "idx": 62,
+      "pred": 6,
+      "gt": null
+     },
+     {
+      "idx": 64,
+      "pred": 3,
+      "gt": null
+     },
+     {
+      "idx": 69,
+      "pred": 3,
+      "gt": null
+     },
+     {
+      "idx": 73,
+      "pred": 4,
+      "gt": null
+     },
+     {
+      "idx": 74,
+      "pred": 5,
+      "gt": null
+     }
+    ]
+   },
+   "HP": {
+    "accuracy": 0.9028,
+    "correct": 65,
+    "n": 72,
+    "errors": [
+     {
+      "idx": 0,
+      "pred": null,
+      "gt": 100
+     },
+     {
+      "idx": 8,
+      "pred": null,
+      "gt": 100
+     },
+     {
+      "idx": 36,
+      "pred": 5,
+      "gt": 45
+     },
+     {
+      "idx": 39,
+      "pred": null,
+      "gt": 100
+     },
+     {
+      "idx": 41,
+      "pred": null,
+      "gt": 100
+     },
+     {
+      "idx": 46,
+      "pred": null,
+      "gt": 100
+     },
+     {
+      "idx": 81,
+      "pred": null,
+      "gt": 100
+     }
+    ]
+   },
+   "shield": {
+    "accuracy": 0.7606,
+    "correct": 54,
+    "n": 71,
+    "errors": [
+     {
+      "idx": 8,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 13,
+      "pred": 75,
+      "gt": 25
+     },
+     {
+      "idx": 24,
+      "pred": 0,
+      "gt": 7
+     },
+     {
+      "idx": 25,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 29,
+      "pred": 245,
+      "gt": 25
+     },
+     {
+      "idx": 39,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 41,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 46,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 48,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 52,
+      "pred": 0,
+      "gt": 50
+     },
+     {
+      "idx": 64,
+      "pred": 75,
+      "gt": 25
+     },
+     {
+      "idx": 65,
+      "pred": 0,
+      "gt": 50
+     }
+    ]
+   },
+   "ability charges (C/Q/E)": {
+    "accuracy": 0.9474,
+    "correct": 216,
+    "n": 228,
+    "errors": [
+     {
+      "idx": 12,
+      "pred": 1,
+      "gt": 0
+     },
+     {
+      "idx": 31,
+      "pred": 1,
+      "gt": 0
+     },
+     {
+      "idx": 39,
+      "pred": 0,
+      "gt": 3
+     },
+     {
+      "idx": 39,
+      "pred": 0,
+      "gt": 2
+     },
+     {
+      "idx": 39,
+      "pred": 0,
+      "gt": 1
+     },
+     {
+      "idx": 41,
+      "pred": 0,
+      "gt": 2
+     },
+     {
+      "idx": 41,
+      "pred": 0,
+      "gt": 1
+     },
+     {
+      "idx": 48,
+      "pred": 1,
+      "gt": 2
+     },
+     {
+      "idx": 50,
+      "pred": 1,
+      "gt": 3
+     },
+     {
+      "idx": 69,
+      "pred": 1,
+      "gt": 3
+     },
+     {
+      "idx": 85,
+      "pred": 1,
+      "gt": 3
+     },
+     {
+      "idx": 86,
+      "pred": 1,
+      "gt": 2
+     }
+    ]
+   },
+   "ult ready": {
+    "accuracy": 0.9211,
+    "correct": 70,
+    "n": 76,
+    "errors": [
+     {
+      "idx": 0,
+      "pred": true,
+      "gt": false
+     },
+     {
+      "idx": 41,
+      "pred": false,
+      "gt": true
+     },
+     {
+      "idx": 55,
+      "pred": true,
+      "gt": false
+     },
+     {
+      "idx": 57,
+      "pred": true,
+      "gt": false
+     },
+     {
+      "idx": 62,
+      "pred": true,
+      "gt": false
+     },
+     {
+      "idx": 79,
+      "pred": true,
+      "gt": false
+     }
+    ]
+   },
+   "HUD hidden -> HP null": {
+    "accuracy": 1.0,
+    "correct": 17,
+    "n": 17,
+    "errors": []
+   }
+  }
+ }
+}

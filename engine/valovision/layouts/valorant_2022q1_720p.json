@@ -1,0 +1,278 @@
+{
+  "name": "valorant-2022q1-720p",
+  "description": "VALORANT HUD layout, Episode 4 Act I-II (patches 4.0-4.07, Jan-Apr 2022), normalised to 1280x720. Ported 1:1 from the 2022 screen_config.txt.",
+  "game_version": "VALORANT 4.0 - 4.07 (2022 Q1)",
+  "base_resolution": [
+    1280,
+    720
+  ],
+  "current_agent": [
+    20,
+    529,
+    75,
+    584
+  ],
+  "roster": {
+    "slots_left": [
+      [
+        297,
+        20
+      ],
+      [
+        341,
+        20
+      ],
+      [
+        386,
+        20
+      ],
+      [
+        429,
+        20
+      ],
+      [
+        473,
+        20
+      ]
+    ],
+    "portrait_size": [
+      27,
+      27
+    ],
+    "area_left": [
+      296,
+      18,
+      503,
+      48
+    ],
+    "carrier_row_left": [
+      296,
+      60,
+      503,
+      86
+    ]
+  },
+  "vitals": {
+    "hp": [
+      383,
+      668,
+      434,
+      699
+    ],
+    "shield": [
+      362,
+      678,
+      377,
+      691
+    ]
+  },
+  "abilities": {
+    "c": [
+      492,
+      689,
+      559,
+      706
+    ],
+    "q": [
+      568,
+      689,
+      636,
+      706
+    ],
+    "e": [
+      642,
+      689,
+      710,
+      706
+    ],
+    "x": [
+      720,
+      685,
+      786,
+      706
+    ],
+    "qe": [
+      576,
+      689,
+      703,
+      706
+    ]
+  },
+  "weapons": {
+    "melee": [
+      1133,
+      486,
+      1216,
+      502
+    ],
+    "secondary": [
+      1140,
+      522,
+      1216,
+      550
+    ],
+    "primary": [
+      1085,
+      566,
+      1216,
+      593
+    ]
+  },
+  "spike": [
+    613,
+    10,
+    667,
+    62
+  ],
+  "thresholds": {
+    "agent_match": 0.5,
+    "roster_match": 0.45,
+    "team_color_bgr_lo": [
+      100,
+      131,
+      34
+    ],
+    "team_color_bgr_hi": [
+      239,
+      253,
+      199
+    ],
+    "team_color_ratio": 0.25,
+    "alive_edge_energy": 40,
+    "spike_red_ratio": 0.25,
+    "ability_min_area": 20,
+    "ability_rel_area": 0.5,
+    "ult_ready_area": 120,
+    "ult_dot_min_area": 6,
+    "weapon_secondary_luma": 160,
+    "weapon_primary_luma": 120,
+    "weapon_min_score": 0.35,
+    "weapon_max_fill": 0.6,
+    "digit_luma": 110,
+    "digit_min_score": 0.55,
+    "digit_rel_luma": 0.72,
+    "alive_edge_strong": 110,
+    "alive_bar_frac": 0.25,
+    "alive_bar_contrast": 12,
+    "spike_tip_ratio": 0.6,
+    "carrier_match": 0.55,
+    "teal_delta": 45,
+    "ability_max_area": 480,
+    "ability_max_height": 9,
+    "ult_ready_width_ratio": 0.7,
+    "ult_dot_pitch": 6
+  },
+  "agents": {
+    "astra": {
+      "c": 1,
+      "q": 1,
+      "e": 2,
+      "x": 7
+    },
+    "breach": {
+      "c": 1,
+      "q": 2,
+      "e": 1,
+      "x": 7
+    },
+    "brimstone": {
+      "c": 2,
+      "q": 1,
+      "e": 3,
+      "x": 7
+    },
+    "chamber": {
+      "c": 2,
+      "q": 1,
+      "e": 1,
+      "x": 7
+    },
+    "cypher": {
+      "c": 2,
+      "q": 2,
+      "e": 1,
+      "x": 7
+    },
+    "jett": {
+      "c": 2,
+      "q": 2,
+      "e": 1,
+      "x": 7
+    },
+    "kayo": {
+      "c": 1,
+      "q": 2,
+      "e": 1,
+      "x": 7
+    },
+    "killjoy": {
+      "c": 2,
+      "q": 1,
+      "e": 1,
+      "x": 7
+    },
+    "neon": {
+      "c": 1,
+      "q": 2,
+      "e": 1,
+      "x": 7
+    },
+    "omen": {
+      "c": 2,
+      "q": 1,
+      "e": 2,
+      "x": 7
+    },
+    "phoenix": {
+      "c": 1,
+      "q": 2,
+      "e": 1,
+      "x": 7
+    },
+    "raze": {
+      "c": 1,
+      "q": 2,
+      "e": 1,
+      "x": 7
+    },
+    "reyna": {
+      "c": 1,
+      "q": 2,
+      "e": 2,
+      "x": 7
+    },
+    "sage": {
+      "c": 1,
+      "q": 2,
+      "e": 1,
+      "x": 7
+    },
+    "skye": {
+      "c": 1,
+      "q": 1,
+      "e": 2,
+      "x": 7
+    },
+    "sova": {
+      "c": 1,
+      "q": 2,
+      "e": 1,
+      "x": 7
+    },
+    "viper": {
+      "c": 2,
+      "q": 1,
+      "e": 1,
+      "x": 7
+    },
+    "yoru": {
+      "c": 2,
+      "q": 2,
+      "e": 1,
+      "x": 7
+    }
+  },
+  "digit_set": "digits_valorant",
+  "calibration": "Thresholds marked in docs/REAL_FOOTAGE.md were fitted on the dev split (frames 0-44) of 89 real Jan-Feb 2022 screenshots; frames 45-88 are held out.",
+  "registration": false
+}

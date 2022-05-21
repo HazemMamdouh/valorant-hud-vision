@@ -1,0 +1,6 @@
+numpy>=1.22
+opencv-python-headless>=4.6
+fastapi>=0.100
+uvicorn[standard]>=0.23
+mss>=9.0
+pillow>=9.0

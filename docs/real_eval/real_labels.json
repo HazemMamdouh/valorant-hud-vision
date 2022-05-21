@@ -1,0 +1,2414 @@
+[
+ {
+  "idx": 0,
+  "file": "deep1080/app/test_images/Feed Images/feed1.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 0,
+  "alive": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 2,
+   "q": 2,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 1,
+  "file": "deep1080/app/test_images/Feed Images/feed2.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 0,
+  "alive": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 2,
+   "q": 1,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 2,
+  "file": "deep1080/app/test_images/Feed Images/feed3.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 0,
+  "alive": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 2,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 3,
+  "file": "deep1080/app/test_images/Feed Images/feed4.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 0,
+  "alive": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 2,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 4,
+  "file": "deep1080/app/test_images/Feed Images/feed5.png",
+  "dm": false,
+  "hud_visible": false,
+  "hp": null,
+  "shield": null,
+  "alive": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "planted": true,
+  "carrier_slot": null,
+  "abilities": null,
+  "ult_ready": null
+ },
+ {
+  "idx": 5,
+  "file": "deep1080/app/test_images/Tab Images/1.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 0,
+  "alive": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 2,
+   "q": 2,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 6,
+  "file": "deep1080/app/test_images/Tab Images/2.png",
+  "dm": false,
+  "hud_visible": false,
+  "hp": null,
+  "shield": null,
+  "alive": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": null,
+  "ult_ready": null
+ },
+ {
+  "idx": 7,
+  "file": "deep1080/app/test_images/Tab Images/3.png",
+  "dm": false,
+  "hud_visible": false,
+  "hp": null,
+  "shield": null,
+  "alive": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "planted": true,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 1,
+   "e": 1
+  },
+  "ult_ready": true
+ },
+ {
+  "idx": 8,
+  "file": "deep1080/app/test_images/Tab Images/4.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 2,
+   "q": 2,
+   "e": 1
+  },
+  "ult_ready": true
+ },
+ {
+  "idx": 9,
+  "file": "deep1080/app/test_images/Tab Images/5.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 0,
+  "alive": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 2,
+   "q": 2,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 10,
+  "file": "deep1080/app/test_images/Tab Images/6.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 25,
+  "alive": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 2,
+   "q": 2,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 11,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/dm1.png",
+  "dm": true,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "abilities": null,
+  "ult_ready": null
+ },
+ {
+  "idx": 12,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed1.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 25,
+  "alive": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 0,
+   "q": 0,
+   "e": 0
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 13,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed10.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 25,
+  "alive": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": 5,
+  "abilities": {
+   "c": 2,
+   "q": 1,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 14,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed11.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 1,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 15,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed12.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 0,
+  "alive": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 2,
+   "e": 0
+  },
+  "ult_ready": true
+ },
+ {
+  "idx": 16,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed13.png",
+  "dm": false,
+  "hud_visible": false,
+  "hp": null,
+  "shield": null,
+  "alive": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": null,
+  "ult_ready": null
+ },
+ {
+  "idx": 17,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed14.png",
+  "dm": false,
+  "hud_visible": false,
+  "hp": null,
+  "shield": null,
+  "alive": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "planted": true,
+  "carrier_slot": null,
+  "abilities": null,
+  "ult_ready": null
+ },
+ {
+  "idx": 18,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed15.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 90,
+  "shield": 0,
+  "alive": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 0,
+   "q": 1,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 19,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed16.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 42,
+  "shield": 0,
+  "alive": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "planted": true,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 0,
+   "q": 0,
+   "e": 0
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 20,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed17.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 65,
+  "shield": 0,
+  "alive": [
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "planted": true,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 0,
+   "q": 2,
+   "e": 0
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 21,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed18.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 0,
+  "alive": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "planted": true,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 0,
+   "e": 0
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 22,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed19.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 25,
+  "alive": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 0,
+   "e": 0
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 23,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed2.png",
+  "dm": false,
+  "hud_visible": false,
+  "hp": null,
+  "shield": null,
+  "alive": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": null,
+  "ult_ready": null
+ },
+ {
+  "idx": 24,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed20.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 91,
+  "shield": 7,
+  "alive": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 0,
+   "e": 0
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 25,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed21.png",
+  "dm": true,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "abilities": null,
+  "ult_ready": null
+ },
+ {
+  "idx": 26,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed22.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 25,
+  "alive": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": 5,
+  "abilities": {
+   "c": 1,
+   "q": 0,
+   "e": 2
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 27,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed23.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 25,
+  "alive": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": 5,
+  "abilities": {
+   "c": 1,
+   "q": 0,
+   "e": 2
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 28,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed24.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 0,
+  "alive": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 0,
+   "q": 0,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 29,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed25.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 25,
+  "alive": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 0,
+   "q": 1,
+   "e": 0
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 30,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed26.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 42,
+  "shield": 0,
+  "alive": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 0,
+   "e": 0
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 31,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed27.png",
+  "dm": false,
+  "hud_visible": false,
+  "hp": null,
+  "shield": null,
+  "alive": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 2,
+   "e": 0
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 32,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed28.png",
+  "dm": false,
+  "hud_visible": false,
+  "hp": null,
+  "shield": null,
+  "alive": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 1,
+   "e": 0
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 33,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed29.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": null,
+  "alive": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 1,
+   "e": 1
+  },
+  "ult_ready": true
+ },
+ {
+  "idx": 34,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed3.png",
+  "dm": false,
+  "hud_visible": false,
+  "hp": null,
+  "shield": null,
+  "alive": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": null,
+  "ult_ready": null
+ },
+ {
+  "idx": 35,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed30.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 0,
+  "alive": [
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 0,
+   "q": 0,
+   "e": 0
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 36,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed31.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 45,
+  "shield": 0,
+  "alive": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "planted": true,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 0,
+   "q": 0,
+   "e": 0
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 37,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed32.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 0,
+  "alive": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 2,
+   "q": 0,
+   "e": 0
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 38,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed33.png",
+  "dm": false,
+  "hud_visible": false,
+  "hp": null,
+  "shield": null,
+  "alive": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": null,
+  "ult_ready": null
+ },
+ {
+  "idx": 39,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed34.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 3,
+   "q": 2,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 40,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed35.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": 5,
+  "abilities": {
+   "c": 3,
+   "q": 2,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 41,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed36.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": 3,
+  "abilities": {
+   "c": 2,
+   "q": 0,
+   "e": 1
+  },
+  "ult_ready": true
+ },
+ {
+  "idx": 42,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed37.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 25,
+  "alive": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 2,
+   "q": 1,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 43,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed38.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 0,
+  "alive": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": 4,
+  "abilities": {
+   "c": 0,
+   "q": 1,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 44,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed39.png",
+  "dm": false,
+  "hud_visible": false,
+  "hp": null,
+  "shield": null,
+  "alive": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": null,
+  "ult_ready": null
+ },
+ {
+  "idx": 45,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed4.png",
+  "dm": false,
+  "hud_visible": false,
+  "hp": null,
+  "shield": null,
+  "alive": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": null,
+  "ult_ready": null
+ },
+ {
+  "idx": 46,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed40.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 2,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 47,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed41.png",
+  "dm": false,
+  "hud_visible": false,
+  "hp": null,
+  "shield": null,
+  "alive": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 1,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 48,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed42.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "planted": true,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 0,
+   "q": 2,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 49,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed43.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 0,
+   "e": 0
+  },
+  "ult_ready": true
+ },
+ {
+  "idx": 50,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed44.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 3,
+   "q": 2,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 51,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed45.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 2,
+   "q": 1,
+   "e": 0
+  },
+  "ult_ready": true
+ },
+ {
+  "idx": 52,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed46.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 2,
+   "q": 0,
+   "e": 0
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 53,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed47.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 0,
+  "alive": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 1,
+   "e": 2
+  },
+  "ult_ready": true
+ },
+ {
+  "idx": 54,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed48.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 0,
+  "alive": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 1,
+   "e": 2
+  },
+  "ult_ready": true
+ },
+ {
+  "idx": 55,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed49.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 2,
+   "q": 1,
+   "e": 2
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 56,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed5.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 0,
+   "e": 0
+  },
+  "ult_ready": true
+ },
+ {
+  "idx": 57,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed50.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 2,
+   "q": 1,
+   "e": 2
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 58,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed51.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 0,
+  "alive": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "planted": true,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 1,
+   "e": 0
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 59,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed52.png",
+  "dm": false,
+  "hud_visible": false,
+  "hp": null,
+  "shield": null,
+  "alive": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": null,
+  "ult_ready": null
+ },
+ {
+  "idx": 60,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed53.png",
+  "dm": false,
+  "hud_visible": false,
+  "hp": null,
+  "shield": null,
+  "alive": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 1,
+   "e": 2
+  },
+  "ult_ready": true
+ },
+ {
+  "idx": 61,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed54.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 0,
+  "alive": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "planted": false,
+  "carrier_slot": 1,
+  "abilities": {
+   "c": 0,
+   "q": 0,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 62,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed55.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 2,
+   "q": 1,
+   "e": 2
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 63,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed56.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 2,
+   "q": 1,
+   "e": 2
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 64,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed57.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 25,
+  "alive": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 1,
+   "e": 2
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 65,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed6.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 0,
+   "q": 0,
+   "e": 0
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 66,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed7.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 90,
+  "shield": 29,
+  "alive": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "planted": true,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 2,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 67,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed8.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 25,
+  "alive": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 2,
+   "q": 1,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 68,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/feed9.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 25,
+  "alive": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "planted": false,
+  "carrier_slot": 5,
+  "abilities": {
+   "c": 1,
+   "q": 0,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 69,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/kayo_rev.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 3,
+   "q": 2,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 70,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/sage_res.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 2,
+   "q": 1,
+   "e": 0
+  },
+  "ult_ready": true
+ },
+ {
+  "idx": 71,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/sage_res2.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 2,
+   "q": 0,
+   "e": 0
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 72,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/sage_res3.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 0,
+  "alive": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 1,
+   "e": 2
+  },
+  "ult_ready": true
+ },
+ {
+  "idx": 73,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/sage_res4.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 0,
+  "alive": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 1,
+   "e": 2
+  },
+  "ult_ready": true
+ },
+ {
+  "idx": 74,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/sage_res7.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 0,
+  "alive": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "planted": true,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 1,
+   "e": 0
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 75,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/spike_death.png",
+  "dm": false,
+  "hud_visible": false,
+  "hp": null,
+  "shield": null,
+  "alive": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": null,
+  "ult_ready": null
+ },
+ {
+  "idx": 76,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Feed Images/spike_death2.png",
+  "dm": false,
+  "hud_visible": false,
+  "hp": null,
+  "shield": null,
+  "alive": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 1,
+   "e": 2
+  },
+  "ult_ready": true
+ },
+ {
+  "idx": 77,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Tab Images/1.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 74,
+  "shield": 0,
+  "alive": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "planted": true,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 0,
+   "e": 0
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 78,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Tab Images/10.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 2,
+   "q": 1,
+   "e": 2
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 79,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Tab Images/11.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "planted": false,
+  "carrier_slot": 1,
+  "abilities": {
+   "c": 2,
+   "q": 1,
+   "e": 2
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 80,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Tab Images/12.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 25,
+  "alive": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 2,
+   "e": 1
+  },
+  "ult_ready": true
+ },
+ {
+  "idx": 81,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Tab Images/2.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 0,
+  "alive": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "planted": false,
+  "carrier_slot": 1,
+  "abilities": {
+   "c": 0,
+   "q": 1,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 82,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Tab Images/3.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "planted": false,
+  "carrier_slot": 5,
+  "abilities": {
+   "c": 2,
+   "q": 1,
+   "e": 0
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 83,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Tab Images/4.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "planted": true,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 2,
+   "q": 1,
+   "e": 0
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 84,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Tab Images/5.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": 5,
+  "abilities": {
+   "c": 2,
+   "q": 1,
+   "e": 0
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 85,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Tab Images/6.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 50,
+  "alive": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "planted": false,
+  "carrier_slot": 5,
+  "abilities": {
+   "c": 3,
+   "q": 2,
+   "e": 1
+  },
+  "ult_ready": true
+ },
+ {
+  "idx": 86,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Tab Images/7.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 100,
+  "shield": 0,
+  "alive": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 2,
+   "q": 2,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 87,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Tab Images/8.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 95,
+  "shield": 38,
+  "alive": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "planted": false,
+  "carrier_slot": 5,
+  "abilities": {
+   "c": 1,
+   "q": 0,
+   "e": 1
+  },
+  "ult_ready": false
+ },
+ {
+  "idx": 88,
+  "file": "deepsidh9_Live-Valorant-Overlay/app/test_images/Tab Images/9.png",
+  "dm": false,
+  "hud_visible": true,
+  "hp": 95,
+  "shield": 40,
+  "alive": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "planted": false,
+  "carrier_slot": null,
+  "abilities": {
+   "c": 1,
+   "q": 1,
+   "e": 0
+  },
+  "ult_ready": false
+ }
+]

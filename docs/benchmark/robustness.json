@@ -1,0 +1,353 @@
+{
+  "step": 2,
+  "fields": [
+    "player.hp",
+    "player.shield",
+    "ability.c",
+    "ability.q",
+    "ability.e",
+    "ult.points",
+    "ult.ready",
+    "loadout.primary",
+    "loadout.secondary",
+    "loadout.active",
+    "spike.planted",
+    "spike.carrier",
+    "roster.alive(10)",
+    "roster.agents(10)"
+  ],
+  "variants": {
+    "clean (x264 crf20)": {
+      "player.hp": 1.0,
+      "player.shield": 1.0,
+      "ability.c": 1.0,
+      "ability.q": 1.0,
+      "ability.e": 1.0,
+      "ult.points": 1.0,
+      "ult.ready": 1.0,
+      "loadout.primary": 1.0,
+      "loadout.secondary": 1.0,
+      "loadout.active": 1.0,
+      "spike.planted": 1.0,
+      "spike.carrier": 1.0,
+      "roster.alive(10)": 1.0,
+      "roster.agents(10)": 1.0,
+      "_overall": 1.0
+    },
+    "stream compression (crf35)": {
+      "player.hp": 1.0,
+      "player.shield": 0.7822,
+      "ability.c": 1.0,
+      "ability.q": 0.8333,
+      "ability.e": 1.0,
+      "ult.points": 0.9978,
+      "ult.ready": 1.0,
+      "loadout.primary": 1.0,
+      "loadout.secondary": 1.0,
+      "loadout.active": 1.0,
+      "spike.planted": 1.0,
+      "spike.carrier": 1.0,
+      "roster.alive(10)": 1.0,
+      "roster.agents(10)": 1.0,
+      "_overall": 0.9724
+    },
+    "540p source": {
+      "player.hp": 1.0,
+      "player.shield": 0.58,
+      "ability.c": 0.8889,
+      "ability.q": 0.8333,
+      "ability.e": 1.0,
+      "ult.points": 1.0,
+      "ult.ready": 1.0,
+      "loadout.primary": 1.0,
+      "loadout.secondary": 1.0,
+      "loadout.active": 1.0,
+      "spike.planted": 1.0,
+      "spike.carrier": 1.0,
+      "roster.alive(10)": 1.0,
+      "roster.agents(10)": 1.0,
+      "_overall": 0.9502
+    },
+    "1080p source": {
+      "player.hp": 1.0,
+      "player.shield": 1.0,
+      "ability.c": 1.0,
+      "ability.q": 1.0,
+      "ability.e": 1.0,
+      "ult.points": 1.0,
+      "ult.ready": 1.0,
+      "loadout.primary": 1.0,
+      "loadout.secondary": 1.0,
+      "loadout.active": 1.0,
+      "spike.planted": 1.0,
+      "spike.carrier": 1.0,
+      "roster.alive(10)": 1.0,
+      "roster.agents(10)": 1.0,
+      "_overall": 1.0
+    },
+    "gaussian blur s=1.2": {
+      "player.hp": 1.0,
+      "player.shield": 0.4333,
+      "ability.c": 0.4822,
+      "ability.q": 0.8333,
+      "ability.e": 1.0,
+      "ult.points": 1.0,
+      "ult.ready": 1.0,
+      "loadout.primary": 1.0,
+      "loadout.secondary": 1.0,
+      "loadout.active": 1.0,
+      "spike.planted": 1.0,
+      "spike.carrier": 1.0,
+      "roster.alive(10)": 1.0,
+      "roster.agents(10)": 1.0,
+      "_overall": 0.9106
+    },
+    "darker (gamma 1.4)": {
+      "player.hp": 1.0,
+      "player.shield": 0.7711,
+      "ability.c": 1.0,
+      "ability.q": 1.0,
+      "ability.e": 1.0,
+      "ult.points": 1.0,
+      "ult.ready": 1.0,
+      "loadout.primary": 1.0,
+      "loadout.secondary": 1.0,
+      "loadout.active": 1.0,
+      "spike.planted": 1.0,
+      "spike.carrier": 1.0,
+      "roster.alive(10)": 1.0,
+      "roster.agents(10)": 1.0,
+      "_overall": 0.9837
+    },
+    "brighter (gamma 0.7)": {
+      "player.hp": 1.0,
+      "player.shield": 0.4311,
+      "ability.c": 1.0,
+      "ability.q": 0.8333,
+      "ability.e": 1.0,
+      "ult.points": 1.0,
+      "ult.ready": 1.0,
+      "loadout.primary": 1.0,
+      "loadout.secondary": 1.0,
+      "loadout.active": 1.0,
+      "spike.planted": 1.0,
+      "spike.carrier": 1.0,
+      "roster.alive(10)": 1.0,
+      "roster.agents(10)": 1.0,
+      "_overall": 0.9475
+    },
+    "sensor noise s=10": {
+      "player.hp": 1.0,
+      "player.shield": 1.0,
+      "ability.c": 1.0,
+      "ability.q": 0.98,
+      "ability.e": 1.0,
+      "ult.points": 1.0,
+      "ult.ready": 1.0,
+      "loadout.primary": 1.0,
+      "loadout.secondary": 1.0,
+      "loadout.active": 1.0,
+      "spike.planted": 1.0,
+      "spike.carrier": 1.0,
+      "roster.alive(10)": 1.0,
+      "roster.agents(10)": 1.0,
+      "_overall": 0.9986
+    },
+    "HUD offset 1 px": {
+      "player.hp": 1.0,
+      "player.shield": 1.0,
+      "ability.c": 1.0,
+      "ability.q": 1.0,
+      "ability.e": 1.0,
+      "ult.points": 1.0,
+      "ult.ready": 1.0,
+      "loadout.primary": 1.0,
+      "loadout.secondary": 1.0,
+      "loadout.active": 1.0,
+      "spike.planted": 1.0,
+      "spike.carrier": 1.0,
+      "roster.alive(10)": 1.0,
+      "roster.agents(10)": 0.0,
+      "_overall": 0.9286
+    },
+    "HUD offset 3 px": {
+      "player.hp": 1.0,
+      "player.shield": 1.0,
+      "ability.c": 1.0,
+      "ability.q": 1.0,
+      "ability.e": 1.0,
+      "ult.points": 1.0,
+      "ult.ready": 1.0,
+      "loadout.primary": 0.0,
+      "loadout.secondary": 1.0,
+      "loadout.active": 1.0,
+      "spike.planted": 1.0,
+      "spike.carrier": 1.0,
+      "roster.alive(10)": 1.0,
+      "roster.agents(10)": 0.0,
+      "_overall": 0.8571
+    }
+  },
+  "legacy_vs_v2": {
+    "clean (x264 crf20)": {
+      "legacy_2022": 0.9627,
+      "v2": 1.0,
+      "legacy_fields": {
+        "player.hp": 1.0,
+        "player.shield": 1.0,
+        "ability.c": 1.0,
+        "ability.q": 0.9933,
+        "ability.e": 1.0,
+        "ult.ready": 1.0,
+        "loadout.secondary": 1.0,
+        "spike.planted": 0.6333,
+        "spike.carrier": 1.0,
+        "roster.alive(10)": 1.0
+      }
+    },
+    "stream compression (crf35)": {
+      "legacy_2022": 0.9173,
+      "v2": 0.9613,
+      "legacy_fields": {
+        "player.hp": 1.0,
+        "player.shield": 1.0,
+        "ability.c": 0.8733,
+        "ability.q": 0.98,
+        "ability.e": 1.0,
+        "ult.ready": 0.9667,
+        "loadout.secondary": 1.0,
+        "spike.planted": 0.6333,
+        "spike.carrier": 0.72,
+        "roster.alive(10)": 1.0
+      }
+    },
+    "540p source": {
+      "legacy_2022": 0.832,
+      "v2": 0.9313,
+      "legacy_fields": {
+        "player.hp": 1.0,
+        "player.shield": 0.44,
+        "ability.c": 1.0,
+        "ability.q": 1.0,
+        "ability.e": 1.0,
+        "ult.ready": 0.8467,
+        "loadout.secondary": 1.0,
+        "spike.planted": 0.6333,
+        "spike.carrier": 0.4,
+        "roster.alive(10)": 1.0
+      }
+    },
+    "1080p source": {
+      "legacy_2022": 0.8653,
+      "v2": 1.0,
+      "legacy_fields": {
+        "player.hp": 1.0,
+        "player.shield": 0.7733,
+        "ability.c": 1.0,
+        "ability.q": 1.0,
+        "ability.e": 1.0,
+        "ult.ready": 0.8467,
+        "loadout.secondary": 1.0,
+        "spike.planted": 0.6333,
+        "spike.carrier": 0.4,
+        "roster.alive(10)": 1.0
+      }
+    },
+    "gaussian blur s=1.2": {
+      "legacy_2022": 0.5293,
+      "v2": 0.8747,
+      "legacy_fields": {
+        "player.hp": 0.98,
+        "player.shield": 0.4333,
+        "ability.c": 0.0,
+        "ability.q": 0.0,
+        "ability.e": 1.0,
+        "ult.ready": 0.8467,
+        "loadout.secondary": 1.0,
+        "spike.planted": 0.6333,
+        "spike.carrier": 0.4,
+        "roster.alive(10)": 0.0
+      }
+    },
+    "darker (gamma 1.4)": {
+      "legacy_2022": 0.526,
+      "v2": 0.9747,
+      "legacy_fields": {
+        "player.hp": 1.0,
+        "player.shield": 1.0,
+        "ability.c": 0.0,
+        "ability.q": 0.0,
+        "ability.e": 0.1467,
+        "ult.ready": 0.8467,
+        "loadout.secondary": 0.2333,
+        "spike.planted": 0.6333,
+        "spike.carrier": 0.4,
+        "roster.alive(10)": 1.0
+      }
+    },
+    "brighter (gamma 0.7)": {
+      "legacy_2022": 0.9453,
+      "v2": 0.9267,
+      "legacy_fields": {
+        "player.hp": 1.0,
+        "player.shield": 0.82,
+        "ability.c": 1.0,
+        "ability.q": 1.0,
+        "ability.e": 1.0,
+        "ult.ready": 1.0,
+        "loadout.secondary": 1.0,
+        "spike.planted": 0.6333,
+        "spike.carrier": 1.0,
+        "roster.alive(10)": 1.0
+      }
+    },
+    "sensor noise s=10": {
+      "legacy_2022": 0.9553,
+      "v2": 0.9993,
+      "legacy_fields": {
+        "player.hp": 0.9733,
+        "player.shield": 1.0,
+        "ability.c": 0.9733,
+        "ability.q": 0.98,
+        "ability.e": 0.9933,
+        "ult.ready": 1.0,
+        "loadout.secondary": 1.0,
+        "spike.planted": 0.6333,
+        "spike.carrier": 1.0,
+        "roster.alive(10)": 1.0
+      }
+    },
+    "HUD offset 1 px": {
+      "legacy_2022": 0.9333,
+      "v2": 1.0,
+      "legacy_fields": {
+        "player.hp": 0.7067,
+        "player.shield": 1.0,
+        "ability.c": 1.0,
+        "ability.q": 0.9933,
+        "ability.e": 1.0,
+        "ult.ready": 1.0,
+        "loadout.secondary": 1.0,
+        "spike.planted": 0.6333,
+        "spike.carrier": 1.0,
+        "roster.alive(10)": 1.0
+      }
+    },
+    "HUD offset 3 px": {
+      "legacy_2022": 0.8767,
+      "v2": 1.0,
+      "legacy_fields": {
+        "player.hp": 0.7067,
+        "player.shield": 0.4333,
+        "ability.c": 1.0,
+        "ability.q": 0.9933,
+        "ability.e": 1.0,
+        "ult.ready": 1.0,
+        "loadout.secondary": 1.0,
+        "spike.planted": 0.6333,
+        "spike.carrier": 1.0,
+        "roster.alive(10)": 1.0
+      }
+    }
+  }
+}

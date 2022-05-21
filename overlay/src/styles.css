@@ -1,0 +1,160 @@
+/* ValoVision overlay — VALORANT 2022 visual language.
+   Transparent stage designed at 1280x720 and scaled to fit (OBS browser source). */
+:root {
+  --navy: #0f1923;
+  --navy-glass: rgba(15, 25, 35, 0.82);
+  --red: #ff4655;
+  --bone: #ece8e1;
+  --ally: #5cdbb4;
+  --slate: #3b4855;
+  --gold: #f5d76e;
+  --cut: 10px;                       /* chamfer size, the house shape */
+  --display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --text: "Barlow", "Segoe UI", sans-serif;
+}
+
+* { box-sizing: border-box; }
+html, body, #root { margin: 0; height: 100%; }
+body { background: transparent; color: var(--bone); font-family: var(--text); overflow: hidden; }
+
+.viewport { position: fixed; inset: 0; overflow: hidden; }
+.stage { position: absolute; left: 0; top: 0; width: 1280px; height: 720px; transform-origin: 0 0; }
+.stage__video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+
+/* chamfered panel: top-left and bottom-right corners cut */
+.player, .roster__head, .fuse, .carrier, .callout, .chip, .waiting {
+  clip-path: polygon(var(--cut) 0, 100% 0, 100% calc(100% - var(--cut)), calc(100% - var(--cut)) 100%, 0 100%, 0 var(--cut));
+}
+
+/* ------------------------------------------------------------ rosters */
+.roster { position: absolute; top: 272px; width: 148px; }
+.roster--left { left: 12px; }
+.roster--right { right: 12px; }
+.roster__head {
+  display: flex; align-items: baseline; gap: 6px;
+  padding: 2px 12px 3px; margin-bottom: 4px;
+  background: var(--navy-glass);
+  font-family: var(--display); font-weight: 700;
+}
+.roster--left .roster__head { border-left: 3px solid var(--ally); }
+.roster--right .roster__head { border-left: 3px solid var(--red); flex-direction: row-reverse; border-left: 0; border-right: 3px solid var(--red); }
+.roster__count { font-size: 26px; line-height: 1; }
+.roster--left .roster__count { color: var(--ally); }
+.roster--right .roster__count { color: var(--red); }
+.roster__label { font-family: var(--text); font-weight: 500; font-size: 12px; opacity: 0.7; }
+.roster__list { list-style: none; margin: 0; padding: 0; display: grid; gap: 3px; }
+.roster__row {
+  position: relative; display: flex; align-items: center; gap: 8px; height: 30px;
+  padding-right: 8px; background: var(--navy-glass);
+  transition: opacity 400ms, filter 400ms;
+}
+.roster--right .roster__row { flex-direction: row-reverse; padding: 0 0 0 8px; }
+.roster__portrait { width: 30px; height: 30px; flex: none; background: var(--slate); }
+.roster--left .roster__portrait { background: color-mix(in srgb, var(--ally) 45%, var(--navy)); }
+.roster--right .roster__portrait { background: color-mix(in srgb, var(--red) 45%, var(--navy)); }
+.roster__portrait img { width: 100%; height: 100%; display: block; }
+.roster--right .roster__portrait img { transform: scaleX(-1); }
+.roster__name { font-family: var(--display); font-weight: 600; font-size: 17px; letter-spacing: 0.02em; text-transform: uppercase; flex: 1; white-space: nowrap; }
+.roster--right .roster__name { text-align: right; }
+.roster__row.is-dead { opacity: 0.45; filter: grayscale(1); }
+.roster__row.is-dead .roster__name { text-decoration: line-through; text-decoration-thickness: 2px; }
+.roster__row.has-spike { box-shadow: inset 0 -2px 0 var(--bone); }
+
+.spike-glyph { fill: var(--bone); flex: none; }
+.spike-glyph__core { stroke: var(--navy); stroke-width: 1.4; }
+
+/* ------------------------------------------------------------ centre */
+.center-top { position: absolute; top: 100px; left: 50%; transform: translateX(-50%); width: 440px; display: grid; justify-items: center; gap: 6px; }
+
+.fuse {
+  position: relative; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 10px;
+  width: 100%; padding: 8px 16px 12px; background: var(--red); color: #fff;
+}
+.fuse .spike-glyph { fill: #fff; }
+.fuse .spike-glyph__core { stroke: var(--red); }
+.fuse__label { font-family: var(--display); font-weight: 700; font-size: 22px; letter-spacing: 0.04em; text-transform: uppercase; }
+.fuse__time { font-family: var(--display); font-weight: 700; font-size: 30px; line-height: 1; font-variant-numeric: tabular-nums; }
+.fuse__track { position: absolute; left: 0; right: 0; bottom: 0; height: 4px; background: rgba(15, 25, 35, 0.35); }
+.fuse__track i { display: block; height: 100%; background: #fff; transform-origin: left; }
+.fuse.is-urgent { animation: fuse-pulse 0.5s steps(2, jump-none) infinite; }
+@keyframes fuse-pulse { 50% { background: #c9303d; } }
+
+.carrier {
+  display: flex; align-items: center; gap: 8px; padding: 4px 14px;
+  background: var(--navy-glass); font-weight: 600; font-size: 14px;
+}
+.carrier--ally { border-left: 3px solid var(--ally); }
+.carrier--enemy { border-left: 3px solid var(--red); }
+
+.callouts { list-style: none; margin: 0; padding: 0; display: grid; justify-items: center; gap: 4px; }
+.callout {
+  padding: 3px 16px 4px; background: var(--navy-glass);
+  font-family: var(--display); font-weight: 600; font-size: 18px; letter-spacing: 0.02em;
+}
+.callout--ally { color: var(--ally); }
+.callout--enemy { color: var(--red); }
+.callout--neutral { color: var(--bone); }
+
+/* ------------------------------------------------------------ player */
+.player {
+  position: absolute; left: 14px; top: 600px; width: 316px; padding: 9px 14px 10px 12px;
+  background: var(--navy-glass); border-left: 3px solid var(--ally);
+  display: grid; grid-template-columns: 1fr 1fr; column-gap: 14px; row-gap: 6px;
+}
+.player__id { grid-column: 1 / -1; display: flex; gap: 10px; align-items: center; }
+.player__portrait { width: 34px; height: 34px; background: color-mix(in srgb, var(--ally) 45%, var(--navy)); }
+.player__agent { font-family: var(--display); font-weight: 700; font-size: 20px; line-height: 1; text-transform: uppercase; letter-spacing: 0.03em; }
+.player__loadout { display: flex; gap: 10px; margin-top: 2px; font-size: 12px; }
+.weapon { opacity: 0.5; font-weight: 500; }
+.weapon.is-active { opacity: 1; font-weight: 600; color: var(--bone); box-shadow: inset 0 -2px 0 var(--ally); }
+
+.vital { position: relative; display: flex; align-items: center; gap: 8px; }
+.vital__num { font-family: var(--display); font-weight: 700; font-size: 22px; width: 34px; font-variant-numeric: tabular-nums; }
+.vital--shield .vital__num { font-size: 18px; opacity: 0.85; }
+.bar { flex: 1; height: 6px; background: rgba(236, 232, 225, 0.14); }
+.bar i { display: block; height: 100%; background: var(--bone); transition: width 250ms ease-out; }
+.bar--shield i { background: #9fb4c7; }
+.bar--hp.is-hit i { background: var(--red); }
+.vital__hit { position: absolute; right: 0; top: -14px; font-family: var(--display); font-weight: 700; color: var(--red); font-size: 15px; }
+
+.kit { grid-column: 1 / -1; display: flex; gap: 10px; align-items: center; }
+.kit__key { display: flex; align-items: center; gap: 5px; }
+.kit__letter { font-family: var(--display); font-weight: 700; font-size: 15px; width: 12px; opacity: 0.7; }
+.kit__pips { display: flex; gap: 3px; }
+.kit__pips i { width: 11px; height: 7px; background: rgba(236, 232, 225, 0.18); }
+.kit__pips i.on { background: var(--bone); }
+.kit__key--ult { margin-left: auto; }
+.kit__ult { display: flex; gap: 3px; }
+.kit__ult i { width: 5px; height: 5px; transform: rotate(45deg); background: rgba(236, 232, 225, 0.2); }
+.kit__ult i.on { background: var(--bone); }
+.kit__key--ult.is-ready .kit__ult i { background: var(--gold); }
+.kit__key--ult.is-ready .kit__letter { color: var(--gold); opacity: 1; }
+.kit__ready { font-family: var(--display); font-weight: 700; font-size: 14px; color: var(--gold); }
+
+/* ------------------------------------------------------------ chrome */
+.chip {
+  position: absolute; right: 12px; bottom: 8px; display: flex; gap: 8px; align-items: center;
+  padding: 2px 12px; background: var(--navy-glass); font-size: 11px; font-weight: 500;
+}
+.chip__num { font-variant-numeric: tabular-nums; opacity: 0.8; }
+.chip__dot { width: 6px; height: 6px; border-radius: 50%; background: var(--slate); }
+.chip--live .chip__dot { background: var(--ally); }
+.chip--replay .chip__dot { background: var(--gold); }
+.chip--offline .chip__dot, .chip--error .chip__dot { background: var(--red); }
+
+.waiting {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  display: grid; gap: 4px; padding: 14px 22px; background: var(--navy-glass); max-width: 520px;
+  border-left: 3px solid var(--red); font-size: 14px;
+}
+.waiting strong { font-family: var(--display); font-size: 22px; font-weight: 700; }
+
+.debug {
+  position: absolute; right: 170px; top: 270px; max-height: 300px; width: 360px; overflow: auto; margin: 0;
+  padding: 8px; background: rgba(15, 25, 35, 0.9); font-size: 10px; line-height: 1.25;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fuse.is-urgent { animation: none; }
+  .bar i, .roster__row { transition: none; }
+}
